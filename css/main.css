@@ -1,61 +1,69 @@
 html {
   box-sizing: border-box;
-  font-family: 'Denk One', sans-serif;
   line-height: 1.5;
+  font-family: Georgia, serif;
   background-color: #f5f2f0;
 }
 
-*,
-*::before,
-*::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1 {
-  color: #623b0c;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-h2 {
-  color: #623b0c;
-}
 
 ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
   gap: 1rem;
-  margin: 1rem;
-  padding: 0;
+  margin: 0;
+  padding: 0 1rem;
 }
 
 li {
- display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #ede3db;
-  padding: 1.125rem;
   border: 2px solid #623b0c;
   border-radius: 8px;
 }
 
-p {
-  font-family: 'Georgia', serif;
+h1, h2 {
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
 }
 
-a {
-  font-size: 1.125rem;
-  font-family: 'Georgia', serif;
-  padding: .75rem;
+h1 {
+  margin: 0;
+  padding: .5em .75em .75em 1rem;
+}
+
+h2 {
+  margin: 0;
+  padding: 1rem 1rem .65em;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding:.5em 1rem;
+}
+
+p {
+  margin: 0 0 auto;
+  padding: .5em 1rem;
+  color: #000;
+}
+
+li a {
+  padding: .5em .75em;
+  margin: 1rem;
   background-color: #623b0c;
+  color: #fff;
   border-radius: 6px;
   text-decoration: none;
-  text-align: left;
-  color: #fff;
-  margin-top: 1.5rem;
-}
-
-a:hover {
-  background-color: #fff;
-  color: #623b0c;
 }
