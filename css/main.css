@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-  #623b0c;
+  color: #623b0c;
 }
 
 ol {
@@ -24,8 +24,8 @@ ol {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
-  margin: 0;
-  padding: 2rem 0;
+  margin: 1rem;
+  padding: 0;
 }
 
 li {
@@ -36,4 +36,26 @@ li {
   padding: 1.125rem;
   border: 2px solid #623b0c;
   border-radius: 8px;
+}
+
+p {
+  font-family: 'Georgia', serif;
+  color: #623b0c;
+}
+
+a {
+  font-size: 1.125rem;
+  font-family: 'Georgia', serif;
+  padding: .75rem;
+  background-color: #623b0c;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  margin-top: 1.5rem;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #623b0c;
 }
